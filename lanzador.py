@@ -46,5 +46,5 @@ def lanzador_main():
 
     catalogar(vehiculos, 2)  # Vehículos con 2 ruedas
     catalogar(vehiculos, 4)  # Vehículos con 4 ruedas
-    catalogar(vehiculos)     # Mostrar todos los vehículos
+
 
