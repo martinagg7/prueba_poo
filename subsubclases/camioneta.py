@@ -7,33 +7,9 @@ class Camioneta(Coche):
         self.modelo = modelo
         self.capacidad_carga = capacidad_carga
 
-        def __str__(self):
-            return f"Camioneta(marca={self.marca}, modelo={self.modelo}, color={self.color}, ruedas={self.ruedas}, capacidad_carga={self.capacidad_carga}, velocidad={self.velocidad}, cilindrada={self.cilindrada})"
-        
-        def cargar(self):
-            print("La camioneta está cargada")
-        
-        def descargar(self):
-            print("La camioneta está descargada")
-        
-        def arrancar(self):
-            print("Arrancando la camioneta")
-        
-        def frenar(self):
-            print("Frenando la camioneta")
+    def __str__(self):
+        return f"Camioneta {self.marca} ({self.modelo}, {self.color}, {self.capacidad_carga} kg, {self.cilindrada} cc)"
+      
     
-    def cargar(self):
-        print("La camioneta está cargada")
-    
-    def descargar(self):
-        print("La camioneta está descargada")
-    
-    def arrancar(self):
-        print("Arrancando la camioneta")
-    
-    def frenar(self):
-        print("Frenando la camioneta")
-    
-
 
     
