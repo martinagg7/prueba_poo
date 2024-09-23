@@ -2,10 +2,8 @@ from subclases.bicicleta import Bicicleta
 
 class Motocicleta(Bicicleta):
     def __init__(self, marca, color, modelo, num_ruedas, cilindrada, tipo):
-        super().__init__(marca, modelo, color, tipo)
-        self.cilindrada = cilindrada
-        self.tipo = tipo
-
+        super().__init__(marca, modelo, color, tipo, num_ruedas)  # Llamada correcta a Bicicleta
+        self.cilindrada = cilindrada  # Atributo específico de Motocicleta
     def arrancar(self):
         print("Arrancando la motocicleta")
 

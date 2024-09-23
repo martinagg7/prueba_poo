@@ -1,8 +1,8 @@
 from superclases.vehiculo import Vehiculo
 
 class Bicicleta(Vehiculo):
-    def __init__(self, marca, modelo, color, tipo, ruedas):
-        super().__init__(color, ruedas)
+    def __init__(self, marca, modelo, color, tipo, ruedas=2):
+        super().__init__(color, ruedas)  
         self.marca = marca
         self.modelo = modelo
         self.tipo = tipo
